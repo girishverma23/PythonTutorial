@@ -7,3 +7,7 @@
 '''
 print "Hello World!!"
 
+name = "Rahul!"
+age  = 25
+# printf type printing
+print("Name = %s Agne : %d" % (name, age))
