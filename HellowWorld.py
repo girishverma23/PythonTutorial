@@ -19,7 +19,7 @@ print("Name = %s Agne : %d" % (name, age))
     2. String : str, unicode
     3. List   : list []
     4. Tuples : tuple ()
-    5. Dict/map
+    5. Dict/map : dict {}
 '''
 int_num = int(23.5)
 float_num = float(23.5)
@@ -46,3 +46,11 @@ tuple_num = (1,2,3,4,5)
 
 print(list_num)
 print(tuple_num)
+
+dic_map = { 'A' : 1,
+            'B' : 2,
+            'C' : 3,
+          }
+print(dic_map)
+print(dic_map.keys())
+print(dic_map.values())
