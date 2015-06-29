@@ -27,3 +27,5 @@ complex_num = complex(5,4);
 
 print(int_num, float_num, long_num, complex_num);
 
+print( "5.1 // 2 (floored) integer division  x and y = " , (5.1 // 2))
+print( "5.1 / 2 division of x and y = " , (5.1 / 2))
