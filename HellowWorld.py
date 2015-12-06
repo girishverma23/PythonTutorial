@@ -59,6 +59,16 @@ dic_map = { 'A' : 1,
             'B' : 2,
             'C' : 3,
           }
+d = dict(a=1,b=5, c=1);
+print d
+print d.keys ()
+print d.values()
+
 print(dic_map)
 print(dic_map.keys())
 print(dic_map.values())
+
+from string import Template
+
+t = Template("$a + $b + $c")
+print eval(t.substitute(d))
