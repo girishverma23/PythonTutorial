@@ -47,6 +47,8 @@ big_string  = "%s BBBBB %s" % (str_name, str_multiline);
 print(big_string);
 
 
+
+
 list_num = [1,2,3,4,5]
 tuple_num = (1,2,3,4,5)
 
