@@ -41,6 +41,12 @@ unicode_name = unicode("Hi  this is unicode name")
 print(str_name)
 print(unicode_name)
 
+# concat string
+print ( str_name + str_multiline );
+big_string  = "%s BBBBB %s" % (str_name, str_multiline);
+print(big_string);
+
+
 list_num = [1,2,3,4,5]
 tuple_num = (1,2,3,4,5)
 
